@@ -43,7 +43,7 @@ json_prompt = hub.pull("hwchase17/react-chat-json")
 prompt_ko = hub.pull("teddynote/react-chat-json-korean")
 
 # Load PDF from GitHub URL
-pdf_url = "https://github.com/your-username/your-repo/raw/main/라이엇게임즈.pdf"
+pdf_url = "https://github.com/debugginglife365/chatbot/blob/main/%EB%9D%BC%EC%9D%B4%EC%97%87%EA%B2%8C%EC%9E%84%EC%A6%88.pdf"
 pdf_response = requests.get(pdf_url)
 
 # Save PDF locally
